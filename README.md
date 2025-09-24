@@ -40,10 +40,18 @@ It reminds you to check-in at regular intervals, asks about your progress, and l
 ---
 
 ## ⚡ Installation & Setup
+
 1. Install **Termux** + **Termux:API** from F-Droid.  
 2. In Termux:
    ```bash
    pkg install python termux-api cronie
-   git clone https://github.com/USERNAME/voice-status-tracker.git
-   cd voice-status-tracker
+   git clone https://github.com/Zaidsk/TRACK-AND-GET-ALERT-VOICE-BASED-IN-YOUR-PHONE.git
+   cd TRACK-AND-GET-ALERT-VOICE-BASED-IN-YOUR-PHONE
    chmod +x status_nagger.py
+
+
+## ⚡ Test Manually 
+   ```bash
+   TASK_NAME="My Task" python status_nagger.py
+
+
